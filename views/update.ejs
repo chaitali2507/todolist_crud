@@ -1,0 +1,14 @@
+<% result.forEach(function(data){ %>
+    <form method="post">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" value="<%= data.name%>"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="update" value="update"></td>
+            </tr>
+        </table>
+    </form>  
+<% });%>   
